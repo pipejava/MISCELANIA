@@ -15,3 +15,5 @@ const iva = 0.19 // variable de tipo flotante
 document.write(nombre);
 // console.log en la consola del navegador o devtools
 console.log(nombre);
+
+var edad = prompt("Cual es tu edad");
