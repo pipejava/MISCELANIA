@@ -7,52 +7,63 @@ body{
 }
 
  #menu{
-    background-color: #fff !important;
+    background-color: rgb(248, 245, 245) !important;
+    
+    
 }
 
-#menu a, button{
-    font-size: 25px !important;
-    font-weight: 500;
+.nav-item{
+    text-align: right;
 }
+
 
 #menu a{
     color: #ff5cb3 !important;
+    font-size: 1.5rem ;
 }
 
 
 .logo{
-    width: 200px !important;
+    width: 250px !important;
+    margin-right: 125px;
+    height: 180px;
 }
 
 .slideimg{
-    height: 750px;
+    height: 700px;
 }
 
-/* NOTICIAS Y NOVEDADES */
+/* NOVEDADES */
 
-#noticias{
-    background-color: #ff5cb3;
+#novedades{
+    background-color: rgb(228, 67, 180);
 }
+
+.titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+#novedades .card-img-top{
+    height: 400px;
+}
+.buy{
+    margin-left: 35%;       
+}
+
 
 #simulador .titulo{
           width: 100%;
           color: #e02796;
           text-align: center;
-          padding-top: 50%
+           padding-top: 50%
 }
 #simulador {
     margin-top: 300px;
 }
-.buy{
-    margin-left: 40%;       
-}
 
-/* SERVICIOS
-.lasimagenes{
-    width: 100%;
-    height: 100%; 
-}
-*/
+
+
 
 /* FOOTER */
 #page-footer{
@@ -65,7 +76,7 @@ body{
 
 #page-footer .ftcontainer{
     display: flex;
-    padding: 40px 0;
+    padding: 40px ;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
@@ -82,7 +93,7 @@ body{
 }
 
 .footer_cta-ftcontainer .cta_txt{
-    font-size: 3.6rem;
+    font-size: 5rem;
     max-width: 35%;
     padding: 0;
 }
@@ -100,9 +111,10 @@ body{
 
 .footer__menu{
     max-width: 300px;
-     padding-left: 1em;   
+     padding-left: 3em;   
     grid-column: 1/3;
     grid-row-start: 1;
+    text-align: center;
 }
 
 .footer__cta-ftcontainer{
@@ -114,6 +126,7 @@ body{
     flex-wrap: nowrap;
     position: relative;
     padding: 70px 0;
+    font-weight: 700;
 }
 
 .footer__cta-ftcontainer:after{
@@ -131,7 +144,7 @@ body{
     color:#ff5cb3;
     font-size: 26px;
     margin: 0;
-    font-weight: 700;
+    font-weight: 900;
     padding: 0 15px;
 
 }
@@ -147,6 +160,7 @@ body{
     font-weight: 700;
     margin-top: 40px;
     transition: all .4s ease-in-out;
+    
 
 
 }
@@ -155,6 +169,12 @@ body{
     color: #ff5cb3;
     background-color: #ce8baf;
     border-color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.cta_txt{
+    text-align: center;
 }
 
 .footer_link{
@@ -164,13 +184,14 @@ body{
     padding: 5px 0 5px .5em;
 }
 .ft-social{
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
     width: 30px;
     border-radius: 100%;
     height: auto;
     display: inline-block;
-    font-size: 14px;
-    line-height: inherit;
+    font-size: 20px;
+    line-height:unset;
+    text-align: right;
 }
 
 .ft-link{
@@ -185,13 +206,13 @@ body{
 
 .footer__title{
     font-weight: 700;
-    color: #fff;
+    color: rgb(5, 5, 5);
     font-size: 20px;
     margin-bottom: 30px;
 }
 
 #page-footer .ftcontainer{
-    max-width: 1200px;
+    max-width: 1150px;
     flex-direction: row;
     padding: 70px 0;
     justify-content: space-between;
@@ -200,13 +221,14 @@ body{
 }
 
 .footer__logo{
-    width: 100%;
+    width: 250px;
+    height: 200px;
 }
 
 
 .footer__info{
     font-size: 14px;
-    color: #fff;
+    color: rgb(5, 5, 5);
     line-height: 30px;
 }
 
@@ -225,5 +247,127 @@ footer{
 
 .footer__link:nth-child(3){
     border-left: 2px solid #0daeda;
+}
+
+/* NOSOTROS */
+
+#nosotros .box {
+    
+    background-color: #e6c7d7 ;
+    width: 100%;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+#nosotros .box img{
+    padding-block: 10px;
+    
+    
+    
+}
+
+#nosotros .box h3{
+    color: #e02796;
+    padding-block: 10px;
+    font-weight: 700;
+    
+}
+
+/* PAPELERIA */
+#papeleria{
+    background-color: rgb(228, 67, 180);
+    margin-top: 200px;
+}
+
+.titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+#papeleria .card-img-top{
+    height: 250px;
+    width: 380px;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.buy{
+    margin-left: 33%;  
+    margin-top: 50px;  
+}
+
+/* SKINCARE*/
+#skincare{
+    background-color: rgb(228, 67, 180);
+    margin-top: 200px;
+}
+
+.titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+#skincare .card-img-top{
+    height: 250px;
+    width: 380px;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.buy{
+    margin-left: 33%;  
+    margin-top: 50px;  
+}
+
+/* PELUCHES*/
+#peluches{
+    background-color: rgb(228, 67, 180);
+    margin-top: 200px;
+}
+
+.titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+#peluches .card-img-top{
+    height: 250px;
+    width: 380px;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.buy{
+    margin-left: 33%;  
+    margin-top: 50px;  
+}
+/* ANCHETAS*/
+#Anchetas{
+    background-color: rgb(228, 67, 180);
+    margin-top: 200px;
+}
+
+.titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+#Anchetas .card-img-top{
+    height: 250px;
+    width: 380px;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.buy{
+    margin-left: 33%;  
+    margin-top: 50px;  
 }
 /*  1em son 10px  */
