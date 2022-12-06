@@ -12,7 +12,7 @@ function calcular(){
     Se hace con una estructura condicional if-then 
     */
     if(precio==0 || precio==null || cantidad==0 || cantidad==null){
-        alert("cantidad o precio =0 o sin llenar, intente de nuevo por favor");
+        alert("cantidad o precio =0 o sin llenar, llene todos los campos por favor");
     } else{
         //declarar variables para la operación
         //valor total vt

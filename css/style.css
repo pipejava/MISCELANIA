@@ -59,7 +59,8 @@ body{
            padding-top: 50%
 }
 #simulador {
-    margin-top: 300px;
+    margin-top: 150px;
+    background-color: #e6c7d7 ;
 }
 
 
@@ -370,4 +371,29 @@ footer{
     margin-left: 33%;  
     margin-top: 50px;  
 }
+/* ANCHETAS*/
+#contacto{
+    width: 100%;
+    background-image: url('../images/map-image.png');
+    background-color: rgb(250, 70, 196);
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    
+} 
+#contacto h2 {
+    color: rgb(253, 252, 252);
+    font-weight: 700;
+    
+}
+#contacto input,select,textarea{
+    width: 25%;
+    padding: 10px 2px;
+    font-family: var(--parrafo);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
 /*  1em son 10px  */
