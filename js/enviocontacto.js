@@ -12,7 +12,7 @@ function envioInfo(event){
     //para poder imprimir la info, se crea un objeto FormData
     const envioForm = new FormData(this);
     //envio
-    recepcion.setAttribute('href',`mailto:${envioForm.get('email')}?subject=nombre: ${envioForm.get('nombre')} apellido: ${envioForm.get('apellido')} email: ${envioForm.get('email')}&body=${envioForm.get('mensaje')}`);
+    recepcion.setAttribute('href',`mailto:${envioForm.get('email')}?subject=nombre: ${envioForm.get('nombre')} apellido: ${envioForm.get('apellido')} body:${envioForm.get('mensaje')}`);
     recepcion.click();
 
 
